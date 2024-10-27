@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --tokyo-night-bg: #1a1b26;
+  --tokyo-night-text: #a9b1d6;
+  --tokyo-night-accent: #7aa2f7;
+}
+
+body {
+  font-family: 'Fira Code', monospace;
+  @apply bg-tokyo-night-bg text-tokyo-night-text;
+}
+
+.gradient-text {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500;
+}
+
+.section-title {
+  @apply text-3xl font-bold mb-6 gradient-text;
+}
+
+.skill-card {
+  @apply bg-tokyo-night-bg border border-tokyo-night-accent rounded-lg p-4 shadow-lg transition-all duration-300 hover:shadow-xl hover:scale-105;
+}
+
+.project-card {
+  @apply bg-tokyo-night-bg border border-tokyo-night-accent rounded-lg overflow-hidden shadow-lg transition-all duration-300 hover:shadow-xl hover:scale-105;
+}
+
+.custom-cursor {
+  @apply fixed pointer-events-none z-50 w-6 h-6 rounded-full bg-tokyo-night-accent mix-blend-difference;
+}
