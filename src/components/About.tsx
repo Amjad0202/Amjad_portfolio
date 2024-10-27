@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FaFileDownload, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import profilepic from '../assets/profile2.png';
 
 const About: React.FC = () => {
   const developerProfile = {
@@ -54,7 +55,7 @@ const About: React.FC = () => {
               <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-blue-700 rounded-full opacity-75 group-hover:opacity-100 blur transition duration-300"></div>
               <div className="relative">
                 <img
-                  src="src/assets/profile2.png"
+                  src={profilepic}
                   alt={developerProfile.name}
                   className="w-64 h-64 rounded-full object-cover border-4 border-blue-500/30 shadow-lg shadow-blue-500/30"
                 />
