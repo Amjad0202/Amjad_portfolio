@@ -191,7 +191,7 @@ const Hero: React.FC = () => {
           }}
         >
           <img
-            src="src/assets/profile1.jpg"
+            src="/src/assets/profile1.jpg"
             alt="Mohamed Amjad"
             className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-300"
           />
