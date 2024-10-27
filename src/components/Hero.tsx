@@ -191,7 +191,7 @@ const Hero: React.FC = () => {
           }}
         >
           <img
-            src="https://photos.google.com/share/AF1QipMuqs3ZW1Mf-oEi8NdfyGhpt0WcJR_6Zrtkh_NwL3f_bwgC_d1aSJtVmLF3Ky_oig/photo/AF1QipPtMNc9ueeDUQVjOM0HgqDfUYtcMHya3OShJmdR?key=M2o2OW5xeTJSeUdUZGg3YUZmcHZyVGdKeXhJWm1n"
+            src="https://i.ibb.co/7zMnGCM/profile1.jpg"
             alt="Mohamed Amjad"
             className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-300"
           />
