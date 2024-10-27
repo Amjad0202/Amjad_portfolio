@@ -7,7 +7,7 @@ const projects = [
     title: 'GrillinHill',
     description: 'A premier dining destination offering exquisite cuisine and unforgettable experiences.',
     longDescription: 'GrillinHill is a renowned restaurant established in 2019, focusing on locally-sourced ingredients, sustainable practices, and warm hospitality. With a diverse menu, curated beverage selection, event hosting, and online reservations, GrillinHill provides a top-tier dining experience.',
-    image: 'src/assets/grillnhill/gnh.png',
+    image: 'https://i.ibb.co/BnQrrL1/gnh.png',
     techStack: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL'],
     features: [
       'Exquisite dining with diverse menu options',
@@ -24,17 +24,17 @@ const projects = [
     githubLink: 'https://github.com/yourusername/grillinhill',
     category: 'Web',
     screenshots: [
-      'src/assets/grillnhill/home.png',
-      'src/assets/grillnhill/about.png',
-      'src/assets/grillnhill/cart.png',
-      'src/assets/grillnhill/pay.png'
+      'https://i.ibb.co/ZTZpR1h/home.png',
+      'https://i.ibb.co/JsJ3ZQ5/about.png',
+      'https://i.ibb.co/DD73g1r/cart.png',
+      'https://i.ibb.co/tz4vzsc/pay.png'
     ]
 },
 {
   title: 'Busify - Public Transport Service Tracking and Tickets Booking Application',
   description: 'A comprehensive application designed to streamline public transportation services in Sri Lanka.',
   longDescription: 'Busify allows passengers to book bus tickets, track bus locations in real-time, rate services, and receive assistance for journey planning. Developed as part of the "Fundamentals of Software Engineering" module at the University of Moratuwa, this application enhances the public transport experience.',
-  image: 'src/assets/busify/image.png', // Change this to the appropriate logo path
+  image: 'https://i.ibb.co/MBY8fBV/image.png', // Change this to the appropriate logo path
   techStack: ['HTML5', 'CSS3', 'JavaScript', 'PHP', 'MySQL'],
   features: [
     'Real-time bus tracking',
@@ -51,7 +51,7 @@ const projects = [
   githubLink: 'https://github.com/Amjad0202/Busify',
   category: 'Web',
   screenshots: [
-    'src/assets/busify/interface.png'  // Update with actual screenshot paths
+    'https://i.ibb.co/XxN676N/interface.png'  // Update with actual screenshot paths
     
   ]
 },
@@ -60,7 +60,7 @@ const projects = [
   title: 'Seyoni - Home Services Management System',
   description: 'A mobile application connecting service seekers with reliable providers quickly and efficiently.',
   longDescription: 'Seyoni is designed to simplify the process of finding and booking home services. With a user-friendly interface built on Flutter, it allows users to connect with providers for various services like home repairs, cleaning, and more, while ensuring a seamless experience.',
-  image: 'src/assets/seyoni/logo.png',
+  image: 'https://i.ibb.co/6v0PPTS/logo.png',
   techStack: ['Flutter', 'Dart', 'Node.js', 'Express.js', 'MongoDB', 'Microsoft Azure'],
   features: [
     'User Authentication and Authorization',
@@ -81,10 +81,10 @@ const projects = [
   githubLink: 'https://github.com/Amjad0202/Seyoni',
   category: 'Mobile',
   screenshots: [
-    'src/assets/seyoni/profile.jpg',
-    'src/assets/seyoni/chat.jpg',
-    'src/assets/seyoni/form.jpg',
-    'src/assets/seyoni/search.jpg'
+    'https://i.ibb.co/9N8ymdH/profile.jpg',
+    'https://i.ibb.co/Fm7V7d7/chat.jpg',
+    'https://i.ibb.co/Zch3HtY/form.jpg',
+    'https://i.ibb.co/tB3JMJv/search.jpg'
   ]
 }
 
