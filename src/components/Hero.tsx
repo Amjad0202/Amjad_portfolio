@@ -4,6 +4,7 @@ import { TypeAnimation } from 'react-type-animation';
 import Particles from 'react-particles';
 import { loadFull } from 'tsparticles';
 import type { Engine, ISourceOptions } from 'tsparticles-engine';
+import profilepic1 from '../assets/profile1.jpg';
 
 const Hero: React.FC = () => {
   const particlesInit = async (main: Engine) => {
@@ -191,7 +192,7 @@ const Hero: React.FC = () => {
           }}
         >
           <img
-            src="https://i.ibb.co/7zMnGCM/profile1.jpg"
+            src={profilepic1}
             alt="Mohamed Amjad"
             className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-300"
           />
