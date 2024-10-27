@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FaFileDownload, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
-import profilepic2 from '../assets/profile2.png';
+import profilepic2 from '../assets/profile1.jpg';
 
 const About: React.FC = () => {
   const developerProfile = {

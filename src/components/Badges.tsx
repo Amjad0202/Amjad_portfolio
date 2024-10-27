@@ -18,7 +18,7 @@ const badges: Badge[] = [
     title: 'Student Expert',
     issuer: 'Postman',
     date: '2024',
-    image: 'src/assets/badges/postman.jpg',
+    image: 'https://i.ibb.co/mX7SVtC/postman.jpg',
     link: 'https://badgr.com/public/assertions/tfUWNIMYQAqrt_1k1eBLzA?identity__email=mamamjadali@gmail.com',
     category: 'certification'
   },
@@ -27,7 +27,7 @@ const badges: Badge[] = [
     title: 'Hacktoberfest2024',
     issuer: 'Holopin',
     date: '2024',
-    image: 'src/assets/badges/holopin3.png',
+    image: 'https://i.ibb.co/0jTRbBV/holopin3.png',
     link: 'https://www.holopin.io/hacktoberfest2024/userbadge/cm2ezdde2257650cl4558dckxn',
     category: 'certification'
   },
@@ -36,7 +36,7 @@ const badges: Badge[] = [
     title: 'Pull Shark',
     issuer: 'Github',
     date: '2023',
-    image: 'src/assets/badges/pull2.png',
+    image: 'https://i.ibb.co/DttP8xN/pull2.png',
     link: 'https://github.com/Amjad0202?tab=achievements',
     category: 'certification'
   }
