@@ -7,7 +7,9 @@
 
 > A modern, responsive portfolio showcasing my journey as a full-stack developer through various web and mobile applications.
 
-![Portfolio Preview](public/assets/preview.png)
+
+![preveiw](https://github.com/user-attachments/assets/996c4506-7088-49e1-9d64-d7005500dbbf)
+
 
 ## ✨ Featured Projects
 
