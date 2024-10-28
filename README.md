@@ -11,22 +11,6 @@
 ![preveiw](https://github.com/user-attachments/assets/996c4506-7088-49e1-9d64-d7005500dbbf)
 
 
-## ✨ Featured Projects
-
-### 🍽️ GrillinHill
-Premium dining platform offering exquisite cuisine experiences
-- **Tech**: HTML, CSS, JavaScript, PHP, MySQL
-- **[Live Demo](https://demo-link-grillinhill.com)** | **[GitHub](https://github.com/yourusername/grillinhill)**
-
-### 🚌 Busify
-Revolutionizing public transportation in Sri Lanka
-- **Tech**: HTML5, CSS3, JavaScript, PHP, MySQL
-- **[Live Demo](https://demo-link-busify.com)** | **[GitHub](https://github.com/Amjad0202/Busify)**
-
-### 🔧 Seyoni
-Connecting service providers with customers seamlessly
-- **Tech**: Flutter, Dart, Node.js, Express.js, MongoDB, Azure
-- **[Live Demo](https://demo-link-seyoni.com)** | **[GitHub](https://github.com/Amjad0202/Seyoni)**
 
 ## 🛠️ Built With
 
@@ -36,26 +20,8 @@ Connecting service providers with customers seamlessly
 - **Development**: ESLint, PostCSS
 - **Version Control**: Git
 
-## 🚀 Quick Start
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/Amjad0202/portfolio.git
-   cd portfolio
-   ```
 
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
-
-3. **Start development server**
-   ```bash
-   npm run dev
-   ```
-
-4. **Open browser**
-   Navigate to `http://localhost:3000`
 
 ## 📁 Project Structure
 
@@ -96,11 +62,6 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 This project is [MIT](LICENSE) licensed.
 
-## 📞 Contact
-
-Amjad - [@your_twitter](https://twitter.com/your_twitter)
-
-Project Link: [https://github.com/Amjad0202/portfolio](https://github.com/Amjad0202/portfolio)
 
 ---
 
