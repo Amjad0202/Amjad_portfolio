@@ -21,7 +21,7 @@ const projects = [
       'Implementing sustainability and eco-friendly practices'
     ],
     demoLink: 'https://demo-link-grillinhill.com',
-    githubLink: 'https://github.com/yourusername/grillinhill',
+    githubLink: 'https://github.com/Amjad0202/grillinhill',
     category: 'Web',
     screenshots: [
       'https://i.ibb.co/ZTZpR1h/home.png',
