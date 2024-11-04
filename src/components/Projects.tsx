@@ -16,6 +16,7 @@ const projects = [
       'Online reservation system for customer convenience'
     ],
     challenges: [
+      [p]
       'Delivering a seamless online reservation experience',
       'Maintaining consistent quality for large events',
       'Implementing sustainability and eco-friendly practices'
