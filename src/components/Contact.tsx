@@ -9,6 +9,7 @@ import {
   FaDiscord,
   FaPhone
 } from 'react-icons/fa';
+import emailjs from 'emailjs-com'; // Import EmailJS
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -27,8 +28,30 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log('Form submitted:', formData);
-    setFormData({ name: '', email: '', message: '' });
+
+    // Replace the following placeholders with your EmailJS details
+    const serviceID = 'service_kok2m6k'; // Example: "service_xxx"
+    const templateID = 'template_uzd3prk'; // Example: "template_xxx"
+    const userID = 'FjXWauI3ye2SmVFOD'; // Example: "user_xxx"
+
+    // Ensure you're sending data that matches the template variables
+    const emailData = {
+      from_name: formData.name, // Mapping name to from_name in template
+      from_email: formData.email, // Mapping email to from_email in template
+      message: formData.message,
+      to_name: 'Recipient Name' // You can hardcode or use a dynamic value
+    };
+
+    emailjs.send(serviceID, templateID, emailData, userID)
+      .then(response => {
+        console.log('Email sent successfully:', response);
+        alert('Message sent successfully!');
+        setFormData({ name: '', email: '', message: '' });
+      })
+      .catch(error => {
+        console.error('Error sending email:', error);
+        alert('Failed to send the message. Please try again later.');
+      });
   };
 
   return (
@@ -114,7 +137,7 @@ const Contact = () => {
             </h2>
             
             <div className="grid grid-cols-4 gap-8 mb-12">
-              {[
+              {[ // Social links with icons
                 { icon: FaLinkedin, href: 'https://www.linkedin.com/in/mohamedamjad/', color: 'hover:text-[#4B7BE5]', label: 'LinkedIn' },
                 { icon: FaTwitter, href: 'https://x.com/Amjadnxt', color: 'hover:text-[#1DA1F2]', label: 'Twitter' },
                 { icon: FaFacebook, href: 'https://www.facebook.com/profile.php?id=100012833539463', color: 'hover:text-[#4267B2]', label: 'Facebook' },
@@ -131,25 +154,14 @@ const Contact = () => {
                     href={social.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className={`text-4xl text-gray-400 transition-all duration-300 ${social.color} p-4 rounded-full bg-[#1A2234]/50 hover:bg-[#1A2234]/80 border border-[#4B7BE5]/20 hover:border-[#4B7BE5]/40`}
-                    whileHover={{ scale: 1.1 }}
-                    whileTap={{ scale: 0.9 }}
+                    className={`text-4xl text-gray-400 transition-all duration-300 ${social.color} p-4 rounded-full bg-[#1A2234]/50 hover:bg-[#1A2234]/80 border border-[#4B7BE5]/20`}
+                    aria-label={social.label}
                   >
                     <social.icon />
                   </motion.a>
-                  <span className="text-xs text-gray-400">{social.label}</span>
+                  <div className="text-gray-400">{social.label}</div>
                 </motion.div>
               ))}
-            </div>
-            
-            <div className="text-gray-400 text-center space-y-4">
-              <p className="text-lg font-medium bg-gradient-to-r from-[#4B7BE5] to-[#8C6BE5] bg-clip-text text-transparent">
-                Let's Create Together!
-              </p>
-              <p className="text-sm">
-                I'm always excited to connect with fellow developers and potential collaborators.
-                Feel free to reach out on any platform that suits you best.
-              </p>
             </div>
           </motion.div>
         </div>
